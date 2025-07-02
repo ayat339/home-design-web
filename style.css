@@ -138,6 +138,7 @@ main {
     
 
     background-color:black;
+    
 }
 .summary-h1 {
   text-align: center;
@@ -156,9 +157,10 @@ main {
 align-content: center;
 }
 .infodiv {
-    border: 1px solid rgb(237, 237, 237);
+    border: 1px solid rgb(254, 207, 145);
  border-radius: 20px;
- background-color:rgb(237, 237, 237);
+ /* background-color:rgb(237, 237, 237); */
+ background-color: rgb(254, 207, 145);
  padding-left:10px ;
 
 }
@@ -173,4 +175,80 @@ color:#708090 ;
 }
 .infop {
 color: gray;
+}
+.div-btn2 a {
+    color: white;
+    background-color: orange;
+font-size: 30px;
+text-decoration: none;
+border-radius: 30px;
+padding: 10px;
+transition: 0.5s;
+}
+.div-btn2 {
+    margin-top: 35px;
+    margin-left: 500px;
+    padding-bottom: 20px;
+    
+
+}
+.div-btn2 a:hover {
+font-size: 28px;
+color:black;
+background-color: aquamarine;
+transition: 0.5s;
+}
+.form {
+display: flex;
+
+justify-content: center;
+background-color: rgb(120, 119, 119);
+height: 400px;
+}
+.contact {
+    margin-left: 200px;
+    margin-right: 50px;
+}
+.contact i {
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid yellow;
+    margin-right: 10px;
+    color:rgb(8, 8, 8);
+    transition: 0.5s;
+}
+.contact i:hover {
+    font-size: 25px;
+    border-radius: 30px;
+    color: blue;
+    border-color: transparent;
+    transition: 0.2s;
+}
+#youtube i:hover {
+    color:#FF0000;
+}
+.contact p {
+    color: whitesmoke;
+}
+.message {
+    margin-right: 300px;
+}
+.form-box {
+display: flex;
+flex-direction: column;
+margin-top: 100px;
+width: 300px;
+gap: 20px;
+
+}
+.form-box input {
+    font-size: 20px;
+    padding: 15px;
+}
+textarea {
+    font-size: 24px;
+    padding: 15px;
+}
+.msg-h1 {
+position: absolute;
 }
