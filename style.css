@@ -115,7 +115,7 @@ main {
     color: white;
     justify-content: space-evenly;
     padding-top: 20px;
-    height:240px;
+    /* height:240px; */
 }
 .service-section {
     border: 1px solid #ddd;
@@ -132,4 +132,45 @@ main {
 }
 .service-section h2 {
     text-align: center;
+    
+}
+.summury-div {
+    
+
+    background-color:black;
+}
+.summary-h1 {
+  text-align: center;
+  color: white;
+  border-bottom: 2px solid white;
+  border-radius: 200px;
+
+}
+.summary-ifm {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    
+        margin-left: 80px;
+    margin-right: 80px;
+align-content: center;
+}
+.infodiv {
+    border: 1px solid rgb(237, 237, 237);
+ border-radius: 20px;
+ background-color:rgb(237, 237, 237);
+ padding-left:10px ;
+
+}
+.infoh1 {
+color: black;
+}
+.infoh2 {
+color: #333333;
+}
+.infoh3 {
+color:#708090 ;
+}
+.infop {
+color: gray;
 }
