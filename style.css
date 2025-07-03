@@ -244,11 +244,33 @@ gap: 20px;
 .form-box input {
     font-size: 20px;
     padding: 15px;
+       background-color: yellow;
+    border:1px solid yellow;
 }
 textarea {
     font-size: 24px;
     padding: 15px;
+       background-color: yellow;
+    border:1px solid yellow;
 }
 .msg-h1 {
 position: absolute;
+}
+.message-button {
+    background-color: orange;
+    margin-top: 10px;
+    font-size: 25px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid orange;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.message-button:hover {
+    color: green;
+    background-color: aqua;
+    font-size: 28px;
+    transition: 0.2s;
 }
